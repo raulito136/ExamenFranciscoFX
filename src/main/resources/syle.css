@@ -1,0 +1,9 @@
+.pantallaMain{
+    -fx-background-image: url(imagen/imagenFondo.jpg);
+}
+.pantallaMain Text{
+    -fx-fill: white;
+}
+.pantallaMain CheckBox{
+    -fx-text-fill: white;
+}
