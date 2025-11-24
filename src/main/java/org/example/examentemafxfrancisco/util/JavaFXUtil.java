@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- *  Clase de utilidad para gestionar la ventana de JavaFX
+ *  Clase que contiene metodos utiles para realizar el programa
  */
 public class JavaFXUtil {
 

@@ -12,6 +12,11 @@ import java.net.URL;
 import java.time.LocalDateTime;
 import java.util.ResourceBundle;
 
+/**
+ * Clase controlador de la ventana principal
+ * @author Raúl López Palomo
+ */
+
 public class MainController implements Initializable {
 
     @FXML
@@ -39,6 +44,11 @@ public class MainController implements Initializable {
     @FXML
     private TableColumn<Usuario,String> tcVersion;
 
+    /**
+     * Metodo que se se inicia al abrir la ventana
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         tcCorreo.setCellValueFactory(row->{
@@ -64,6 +74,10 @@ public class MainController implements Initializable {
         });
     }
 
+    /**
+     * Metodo para añadir un usuario
+     * @param actionEvent
+     */
     @FXML
     public void anadirUsuario(ActionEvent actionEvent) {
         Usuario usuario=new Usuario();
@@ -87,6 +101,10 @@ public class MainController implements Initializable {
         }
     }
 
+    /**
+     * Metodo para borrar todos los datos de la tabla
+     * @param actionEvent
+     */
     @FXML
     public void borrarDatos(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);

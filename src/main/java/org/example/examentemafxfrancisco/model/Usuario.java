@@ -4,6 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Clase modelo de usuario
+ * @author Raúl López Palomo
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

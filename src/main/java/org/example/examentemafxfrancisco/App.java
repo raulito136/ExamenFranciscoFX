@@ -6,6 +6,10 @@ import org.example.examentemafxfrancisco.util.JavaFXUtil;
 
 import java.io.IOException;
 
+/**
+ * Clase principal de la aplicación
+ * @author Raúl López Palomo
+ */
 public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
